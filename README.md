@@ -2,7 +2,7 @@
 
 Modern ve minimalist tasarıma sahip kişisel portfolio websitesi. React ve Vite kullanılarak geliştirilmiştir.
 
-![Portfolio Preview](public/preview.png)
+- [Portfolio Preview](https://me-rho-ruddy-47.vercel.app/)
 
 ## 🚀 Özellikler
 
