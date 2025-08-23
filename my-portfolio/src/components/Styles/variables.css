@@ -1,0 +1,27 @@
+:root {
+  /* Ana renkler */
+  --primary: #ff7f00; /* Turuncu */
+  --primary-light: #ff9933;
+  --primary-dark: #e67300;
+
+  --accent: #ffd700; /* Altın sarısı */
+  --accent-light: #ffe033;
+  --accent-dark: #e6c200;
+
+  /* Nötr renkler */
+  --text-dark: #1a1a1a;
+  --text-light: #666666;
+  --background: #fff9f2; /* Hafif sıcak beyaz */
+  --surface: #ffffff;
+
+  /* Gölgeler */
+  --shadow-sm: 0 2px 4px rgba(255, 127, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(255, 127, 0, 0.15);
+  --shadow-lg: 0 8px 16px rgba(255, 127, 0, 0.2);
+
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+}

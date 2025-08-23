@@ -1,0 +1,249 @@
+@import "../Styles/variables.css";
+
+.about {
+  padding: 100px 0;
+  background-color: var(--background);
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-header h2 {
+  font-size: 2.5rem;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.about-header h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background-color: var(--primary);
+  border-radius: var(--radius-full);
+}
+
+.about-intro {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.experience-section,
+.education-section {
+  padding: 20px;
+}
+
+.experience-section h3,
+.education-section h3 {
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.experience-section h3::after,
+.education-section h3::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background-color: var(--accent);
+  border-radius: var(--radius-full);
+}
+
+.experience-list,
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ExpItem Styles */
+.exp-item {
+  background-color: var(--surface);
+  padding: 25px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.exp-item:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.exp-title h4 {
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  margin-bottom: 5px;
+}
+
+.company-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.company {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.company-url {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: var(--radius-full);
+  transition: all 0.3s ease;
+  background: var(--surface);
+}
+
+.company-url:hover {
+  color: var(--primary);
+  background: var(--accent-light);
+  box-shadow: var(--shadow-sm);
+}
+
+.duration {
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+.description {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background-color: var(--accent-light);
+  color: var(--text-dark);
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* EduItem Styles */
+.edu-item {
+  background-color: var(--surface);
+  padding: 25px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.edu-item:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.edu-title h4 {
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  margin-bottom: 5px;
+}
+
+.degree {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.year {
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .about-header h2 {
+    font-size: 2rem;
+  }
+
+  .about-intro {
+    font-size: 1.1rem;
+  }
+
+  .experience-section h3,
+  .education-section h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 60px 0;
+  }
+
+  .about-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-intro {
+    font-size: 1rem;
+  }
+
+  .exp-item,
+  .edu-item {
+    padding: 20px;
+  }
+
+  .exp-header,
+  .edu-header {
+    flex-direction: column;
+  }
+
+  .duration,
+  .year {
+    margin-top: 5px;
+  }
+}
