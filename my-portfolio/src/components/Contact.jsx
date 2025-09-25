@@ -18,10 +18,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_jvrx6o7",
+        "template_hh1ocur", // Email Templates'den aldığınız Template ID'yi buraya yazın
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "QXHT1TC2O4nw4KYUH" // EmailJS'den aldığınız Public Key
       )
       .then(
         (result) => {

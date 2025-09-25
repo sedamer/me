@@ -10,20 +10,17 @@ const About = () => {
       school: "Gaziantep Üniversitesi",
       degree: "Yüksek Lisans Derecesi",
       field: "Endüstri Mühendisliği",
-      year: "2015- Halen",
+      year: "2025 - Halen",
       description:
-        "Başarılarınız ve önemli projeleriniz hakkında kısa açıklama.",
+        "Gaziantep Üniversitesi Endüstri Mühendisliği yüksek lisans programında üretim planlama, optimizasyon, operasyonel verimlilik ve yapay zekâ uygulamaları üzerine çalışmalar yürütmekteyim.",
     },
     {
       school: "Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi",
       degree: "Lisans Derecesi",
       field: "Bilgisayar Mühendisliği",
-      year: "2019-2024",
-      description: `2024 Haziran’ında Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi 
-      Bilgisayar Mühendisliği bölümünden <b>bölüm üçüncüsü</b> olarak mezun oldum. 
-      Eğitimim boyunca yaptığım frontend stajları, React ve modern web teknolojilerine hâkimiyet 
-      kazandırırken aynı zamanda kullanıcı deneyimi, responsive tasarım ve ekip çalışması 
-      konularında beni geliştirdi.`,
+      year: "2019 - 2024",
+      description:
+        "2024 Haziran’ında Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi Bilgisayar Mühendisliği bölümünden bölüm üçüncüsü olarak mezun oldum. Eğitimim boyunca yaptığım frontend stajları, React ve modern web teknolojilerine hâkimiyet kazandırırken aynı zamanda kullanıcı deneyimi, responsive tasarım ve ekip çalışması konularında beni geliştirdi.",
     },
   ];
 
