@@ -17,14 +17,14 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Sosyal Medya Yönetimi Ve Reklamcılık",
+      title: "Google Ads & Instagram Reklam Yönetimi",
       description:
         "Instagram reklamları ve Google Ads kampanyalarını yöneterek markaların daha fazla kişiye ulaşmasına destek oluyorum.",
       icon: "🤳🏻",
     },
     {
       id: 3,
-      title: "Web Geliştirme",
+      title: "Web Geliştirme - Wix & WordPress",
       description:
         "Modern ve kullanıcı dostu web siteleri tasarlayıp hayata geçiriyorum.",
       icon: "📱",
@@ -52,7 +52,7 @@ const Projects = () => {
       title:
         "Umut Hikayeler | Depremden Etkilenen Çocuklar İçin Terapötik Hikayeler",
       description:
-        "Umut Hikayeler, depremden etkilenen çocuklar için iyileşme ve psikolojik dayanıklılığı destekleyen terapötik hikayelerden oluşan bir <b>TÜBİTAK</b> destekli sosyal sorumluluk projesidir. Bu projede Proje Yöneticisi olarak görev aldım. Ekip planlaması, görev dağılımı ve proje yönetiminin yanı sıra, projenin dijital yüzü olan web sitesini tasarlayıp geliştirdim. Ayrıca, yapay zeka destekli araçlar kullanarak projenin görsel ve içerik üretim süreçlerini yönettim. Hikaye görselleri ve metinlerinin hazırlanmasında aktif rol alarak, projenin hem yaratıcı hem teknik aşamalarında katkı sağladım",
+        "Proje Yöneticisi olarak ekip planlamasını, görev dağılımını ve süreç takibini yürüttüm. Proje takvimi ve iş akışlarını oluşturarak ekipler arası koordinasyonu sağladım; ilerlemeyi düzenli olarak takip edip gerekli revizyonları gerçekleştirdim. Projenin dijital platformu olan web sitesini tasarlayıp geliştirerek kullanıcı deneyimini iyileştirdim. İçerik üretim sürecinde hikaye görselleri ve metinlerinin hazırlanmasına katkı sağlayarak projenin hem yaratıcı hem de teknik aşamalarında aktif rol aldım.",
       image: UmutHikayeler,
       technologies: ["Proje Yönetimi", "Yapay Zeka", "Wix", "Mobil Uygulama"],
       link: "https://www.umuthikayeler.com/",

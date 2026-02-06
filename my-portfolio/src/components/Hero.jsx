@@ -4,9 +4,8 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { MdAlternateEmail } from "react-icons/md";
-import me1 from "../assets/me2.jpg";
 import { motion } from "framer-motion";
-
+import me1 from "../assets/me1.png";
 const Hero = () => {
   return (
     <section id="home" className="hero">
