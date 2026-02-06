@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { MdAlternateEmail } from "react-icons/md";
-import me2 from "../assets/me2.jpg";
+import me1 from "../assets/me2.jpg";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -128,7 +128,7 @@ const Hero = () => {
               <div className="geo-shape shape3"></div>
             </div>
             <div className="image-container">
-              <img src={me2} alt="Seda Mercan" />
+              <img src={me1} alt="Seda Mercan" />
             </div>
           </motion.div>
         </div>
